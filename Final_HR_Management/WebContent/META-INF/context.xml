@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE xml>
+
+<Context>
+
+<!-- Specify a JDBC datasource -->
+
+
+<Resource 
+			auth="Container" name="jdbc/hrdb"
+			url="jdbc:oracle:thin:@//myoracle12c.senecacollege.ca/oracle12c" 
+			driverClassName="oracle.jdbc.OracleDriver" 
+			password="16519266" username="cjv805_191a08" 
+			maxIdle="4" 
+			maxTotal="10" 
+			type="javax.sql.DataSource" 
+			/>
+
+</Context>

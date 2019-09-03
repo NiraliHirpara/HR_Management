@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+/* The styles for the elements */
+label {
+    float: left;
+    width: 8em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input[type="date"], input[type="number"], input[type="text"], input[type="email"], input[type="password"], input[type="tel"]  {  /* An attribute selector */
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+select {
+	width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+input[type="submit"], input[type="button"] {
+    padding-top: 8px;    
+	padding-left: 14px;    
+    padding-right: 14px;    
+    padding-bottom: 8px;    
+}
+br {
+    clear: both;
+}
+/* The styles for the classes */
+.mybtnred{ background-color: RED; }
+.top-buffer { margin-top:40px; }
+.navbar-margins { margin-top:40px;  margin-left:60px; margin-right:60px;   }
+.body-margins { padding-top:80px;  margin-left:80px; margin-right:80px; padding-bottom:50px }
+.body-margins-no-header { margin-left:80px; margin-right:80px; padding-bottom:50px  }
+.body-margins-logout { padding-top:100px;  margin-left:80px; margin-right:80px;   }
+.footer-margins { margin-left:60px; margin-right:60px; padding-top: 10px; }
+.pad_top { padding-top: 0.25em; }
+.margin_left { margin-left: 0.5em; }
+.backgrund-white { background-color: white; }
+.status-text { color: RED; padding-top: 30px; padding-bottom: 50px; }
+.status-text-no-footer { color: RED; padding-top: 30px; }
+.text-glow { color:#fff; text-shadow:0 0 30px #fff, 0 0 70px #ffff00; }
